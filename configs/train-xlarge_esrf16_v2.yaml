@@ -1,0 +1,7 @@
+train_config:
+  model_id_prefix: 'segmentation-model-xlarge_esrf16_v2'
+  dataset_id: 'dataset-xlarge_esrf16_v2'
+  batch_size: 16
+  epochs: 200
+  augmentation:
+    random_90-degree_rotations: True

@@ -20,3 +20,4 @@ Infrastructure that will be used:
 
 ## Notes
 - `infer_segmentation.py` looks for `<stack_id>` in `processed-data` inside bucket
+- Download inference locally by (e.g.) `gsutil -m cp -r gs://necstlab-sandbox/inferences/<inference_ID> <local_storage_location>`
